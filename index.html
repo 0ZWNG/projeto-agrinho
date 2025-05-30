@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Conexão Campo e Cidade</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>🌱 Conexão Campo e Cidade</h1>
+  <p>Conectar o campo à cidade para promover soluções para um futuro mais sustentável.</p>
+</header>
+
+<nav>
+  <button class="active" data-target="problemas">Problemas</button>
+  <button data-target="solucoes">Soluções</button>
+  <button data-target="futuro">Futuro</button>
+  <button data-target="videos">Vídeos</button>
+</nav>
+
+<main>
+  <div class="font-controls" aria-label="Controle de tamanho da fonte">
+    Tamanho da fonte:
+    <button id="fontIncrease" aria-label="Aumentar fonte">🔍 Aumentar</button>
+    <button id="fontDecrease" aria-label="Diminuir fonte">🔍 Diminuir</button>
+  </div>
+
+  <section id="problemas" class="active" tabindex="0" aria-label="Seção problemas">
+    <h2>🌾 Problemas Enfrentados no Campo e na Cidade</h2>
+    <img
+      src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+      alt="Imagem do campo"
+      class="image-campo"
+      loading="lazy"
+    />
+    <ul>
+      <li><span class="highlight">Desvalorização do Trabalho Rural:</span> O trabalho rural é invisibilizado pela sociedade urbana.</li>
+      <li><span class="highlight">Falta de Acesso à Tecnologia no Campo:</span> Muitos produtores não têm acesso a internet e ferramentas digitais.</li>
+      <li><span class="highlight">Desperdício de Alimentos:</span> A falta de infraestrutura para escoamento causa grande desperdício de alimentos.</li>
+      <li><span class="highlight">Fuga de Jovens do Campo:</span> A migração de jovens para as cidades enfraquece o desenvolvimento rural.</li>
+    </ul>
+  </section>
+
+  <section id="solucoes" tabindex="0" aria-label="Seção soluções">
+    <h2>💡 Soluções Criativas para a Conexão Campo-Cidade</h2>
+    <ul>
+      <li><span class="highlight">Apadrinhar um Produtor:</span> Conectar consumidores urbanos com agricultores.</li>
+      <li><span class="highlight">Conexão Jovens Urbanos e Rurais:</span> Compartilhar habilidades tecnológicas entre jovens urbanos e agricultores.</li>
+      <li><span class="highlight">Sistema de Aviso de Colheita:</span> Notificar excedente de alimentos para consumidores urbanos.</li>
+      <li><span class="highlight">Empreendedorismo Jovem no Campo:</span> Incentivar o empreendedorismo para manter os jovens no campo.</li>
+    </ul>
+  </section>
+
+  <section id="futuro" tabindex="0" aria-label="Seção futuro">
+    <h2>🌍 O Futuro da Conexão entre Campo e Cidade</h2>
+    <p>
+      A integração entre o campo e a cidade é essencial para um futuro sustentável e justo. O uso consciente dos recursos naturais, aliado à tecnologia, será chave para a transformação.
+    </p>
+  </section>
+
+  <section id="videos" tabindex="0" aria-label="Seção vídeos">
+    <h2>🎥 Vídeos sobre Conexão Campo e Cidade</h2>
+    <p>Confira conteúdos em nossas redes sociais:</p>
+    <div class="social-icons" role="list">
+      <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">📸 Instagram</a>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">📘 Facebook</a>
+      <a href="https://web.whatsapp.com" target="_blank" rel="noopener" aria-label="WhatsApp">💬 WhatsApp</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2025 Conexão Campo e Cidade. Todos os direitos reservados.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
